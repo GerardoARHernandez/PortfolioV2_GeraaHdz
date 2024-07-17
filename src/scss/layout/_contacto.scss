@@ -1,0 +1,64 @@
+@use 'base/variables' as v;
+
+.contacto {
+    background-color: v.$grisclaro;
+    background-image: url(../src/img/contact_bg.webp);
+    color: v.$blanco;
+    padding: 5rem 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contenido-contacto{
+    max-width: 110rem;
+    margin: auto;
+  }
+  
+  .contacto h2{
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .contacto .datos{
+    margin: 8px;
+    font-size: 1.7rem;
+  }
+  
+  .contenido-datos{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+  .contacto .datos strong{
+    display: inline-block;
+    color: v.$azulclaro;
+    width: 13rem;
+    font-weight: bold;
+  }
+  
+  .contacto .boton{
+    display: block;
+    font-family: v.$fuenteHeading;
+    color: v.$blanco;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+  }
+  @media (min-width: 768px) { 
+    .contacto .boton{
+        display: inline-block;
+    }
+  }
+  .contacto .boton:hover{
+    cursor: pointer;
+  }
+  .contacto .boton--primario{
+    background-color: v.$azulclaro;
+    border-radius: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }

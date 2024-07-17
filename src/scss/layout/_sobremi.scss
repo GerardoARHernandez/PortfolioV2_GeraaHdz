@@ -1,0 +1,83 @@
+@use 'base/variables' as v;
+
+.sobremi {
+    background-color: v.$oscuro;
+    color: v.$blanco;
+    padding: 5rem 2rem;
+  }
+  
+  .contenido-sobremi{
+    max-width: 110rem;
+    margin: auto;
+  }
+  
+  .sobremi h2{
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .contenido-sobremi p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contenido-sobremi span{
+    font-weight: 700;
+  }
+  
+  .fila {
+    display: flex;
+  }
+  
+  .col{
+    width: 100%;
+  }
+  
+  .col h3{
+    margin-bottom: 2.5rem;
+  }
+  
+  .col ul{
+    list-style: none;
+  }
+  .col ul li{
+    margin: 12px;
+    font-size: 1.7rem;
+  }
+  .col ul li strong{
+    display: inline-block;
+    color: v.$azulclaro;
+    width: 13rem;
+    font-weight: bold;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid v.$blanco;
+    width: fit-content;
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2.2rem;
+    font-size: 1.6rem;
+    color: v.$blanco;
+    position: relative;
+    z-index: 10;
+  }
+  
+  button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: v.$azulclaro;
+    z-index: -1;
+    transition: 1s;
+  }
+  
+  button:hover .overlay{
+    width: 100%;
+    font-weight: bold;
+  }

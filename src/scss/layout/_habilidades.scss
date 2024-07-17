@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+
+.habilidades {
+    background-color: v.$grisclaro;
+    color: v.$blanco;
+    padding: 5rem 2rem;
+  }
+  
+  .contenido-habilidades{
+    max-width: 110rem;
+    margin: auto;
+  }
+  
+  .habilidades h2{
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .contenido-card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    
+    @media screen and (min-width: v.$tablet){
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+      margin: auto;
+      padding: 4rem;
+    }
+  }
+  
+  .logo-servicio{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid v.$blanco;
+    border-radius: 100%;
+    width: 4.2rem;
+    height: 4.2rem;
+    /* line-height: 6.2rem; */
+    font-size: 2rem;
+    transition: .3s;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nombre-servicio{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  

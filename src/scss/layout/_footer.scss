@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+
+.footer{
+    background-color: v.$oscuro;
+    color: v.$blanco;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    .redes a{
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 100%;
+      width: 4.2rem;
+      height: 4.2rem;
+      line-height: 4rem;
+      margin: 0.5rem;
+      font-size: 2.5rem;
+      transition: 0.3s;
+      text-align: center;
+    }
+  }
+  
+  .arriba{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-color: v.$azulclaro;
+    color: v.$blanco;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+  }
+  
+  .derechos{
+    padding: 1rem;
+  }

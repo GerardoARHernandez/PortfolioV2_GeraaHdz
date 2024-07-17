@@ -1,0 +1,53 @@
+@use 'variables' as v;
+
+/* Globales */
+html {
+    box-sizing: border-box;
+    font-size: 72.5%;
+    /* Para deslizarme sobre los enlaces del menu */
+    scroll-behavior: smooth;
+  }
+  
+  *{
+    box-sizing: border-box;
+    font-family: v.$fuenteParrafo;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    line-height: 2;
+    font-family: v.$fuenteParrafo, sans-serif;
+    /* background: v.$oscuro); 
+    color: v.$blanco);*/
+  }
+  
+  h1,h2,h3{
+    font-family: v.$fuenteHeading;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 4.2rem;
+  }
+  h3{
+    font-size: 1.8rem;
+  }
+  p{
+    font-family: v.$fuenteParrafo;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+body > section {
+    padding: 10rem 0
+}

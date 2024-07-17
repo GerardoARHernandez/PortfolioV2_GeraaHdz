@@ -1,0 +1,56 @@
+@use 'base/variables' as v;
+
+@media screen and (max-width:1070px ) { 
+    nav{
+      display: none;
+    }
+    .nav-responsive{
+      display: block;
+    }
+    nav.responsive{
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 7.5rem;
+      background-color: v.$oscuro;
+      width: 18rem;
+    }
+    nav.responsive ul{
+      display: block !important;
+    }
+    nav.responsive ul li{
+      border-bottom: 1px solid v.$blanco;
+      padding: 1rem;
+    }
+
+  }
+  
+  @media screen and (max-width: v.$tablet) {
+    .sobremi .fila{
+      display: block;
+    }
+    .sobremi .fila .col{
+      width: fit-content;
+    }
+  
+    .galeria{
+      display: block;
+      width: 100%;
+    }
+    .galeria .proyecto{
+      max-width: 100%;
+    }
+    .contenido-datos{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      
+    }
+  }
+  
+  @media screen and (max-width: v.$telefono){
+    .contenido-card{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+    
+  }
