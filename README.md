@@ -15,7 +15,6 @@ Este es mi portafolio personal, el cual contiene una página principal con secci
 - **HTML**
 - **CSS/SASS**
 - **JavaScript**
-- **PHP**
 - **Gulp**
 
 ## Configuración del Proyecto
@@ -26,7 +25,6 @@ Asegúrate de tener instalados los siguientes software:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
-- [PHP](https://www.php.net/)
 
 ## Instalación
     Instala las dependencias de npm:
@@ -42,19 +40,10 @@ Para iniciar el entorno de desarrollo, usa el siguiente comando:
 Este comando ejecutará Gulp para compilar SASS y JavaScript y observar cambios en los archivos.
 Servidor Local
 
-Para ejecutar el proyecto localmente con PHP, usa el siguiente comando:
-
-    php -S localhost:5500
-
-Luego, abre tu navegador y visita http://localhost:5500 para ver tu portafolio en acción.
-
 ## Funcionalidades Adicionales
 ### Gulp
 
 El proyecto utiliza Gulp para automatizar tareas de desarrollo. El archivo gulpfile.js incluye tareas para compilar SASS a CSS y observar cambios en los archivos.
-### PHP
-
-Se utiliza PHP para incluir secciones comunes como el header y el footer, lo que hace el código más limpio y modular.
 
 ## Licencia
 

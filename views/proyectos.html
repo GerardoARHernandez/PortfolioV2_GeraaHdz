@@ -11,7 +11,26 @@
         <title>Portfolio</title>  
     </head>
     <body>
-        <?php include_once __DIR__ . '/../header.php'; ?>
+        
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="../index.html">Gerardo Ruelas</a>
+                </div>
+                <nav id="nav" class="responsive nav">
+                    <ul>
+                        <li><a href="/index.html" onclick="seleccionar()">Inicio</a></li>
+                        <li><a href="/index.html#sobremi" onclick="seleccionar()">Sobre Mí</a></li>
+                        <li><a href="/index.html#habilidades" onclick="seleccionar()">Habilidades</a></li>
+                        <li><a href="/index.html#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                        <li><a href="/index.html#contacto" onclick="seleccionar()">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div id="nav2" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+          </div> <!-- Fin de Header  -->
 
         <div class="proyectos" id="proyectos">
             <h1 class="proyecto-redes"> 
@@ -31,7 +50,10 @@
                                 <div class="card__content">
                                     <h4 class="card__title">App Salón</h4>
                                     <p class="card__description">
-                                        Aplicación web simula una barbería con acceso para el cliente y un administrador, hecha con MVC.
+                                        Simula una barbería con acceso para el cliente y un administrador, hecha con MVC. <br>
+                                        Pruebas: <br>
+                                        correo2@correo.com //
+                                        123456
                                     </p>
                                     <p class="tec">
                                         <i class="fa-brands fa-html5 fa-lg"></i>
@@ -173,7 +195,22 @@
             </div>
         </div>
 
-        <?php include_once __DIR__ . '/../footer.php'; ?>
+        <footer class="footer">
+            <a href="#" class="arriba" id="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <section class="redes">
+                <a href="https://github.com/GerardoARHernandez" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gerardo-a-ruelas-hern%C3%A1ndez-628b94289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </section>
+            <div class="derechos">
+                <h3>
+                    Gerardo Antonio Ruelas Hernández. Todos los derechos Reservados <?php echo date('Y'); ?>.
+                </h3>
+            </div>
+        </footer> <!--Fin de Footer-->
+        
+
         <script src="../../build/js/app.js"></script>
     </body>
 </html>
