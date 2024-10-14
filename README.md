@@ -1,30 +1,31 @@
 ﻿# PortfolioV2_GeraaHdz
-Este es mi portafolio personal, el cual contiene una página principal con secciones de inicio, sobre mí, habilidades, proyectos y contacto, además de una segunda página que muestra todos mis proyectos.
 
-## Estructura del Proyecto
+Este es mi portafolio personal, donde muestro algunos de mis proyectos y habilidades como desarrollador web. El sitio ha sido creado utilizando **HTML**, **SASS** y **JavaScript** para lograr un diseño moderno y responsivo.
 
-- **Inicio**: Introducción y bienvenida.
-- **Sobre Mí**: Información personal y profesional.
-- **Habilidades**: Mis habilidades técnicas y conocimientos.
-- **Proyectos**: Muestra 6 de mis proyectos más destacados.
-- **Contacto**: Formulario de contacto para que los visitantes puedan comunicarse conmigo.
-- **Todos los Proyectos**: Una página separada que muestra todos mis proyectos.
+## Características
+
+- **Responsive Design**: El portafolio está diseñado para adaptarse a diferentes tamaños de pantalla, desde dispositivos móviles hasta monitores grandes.
+- **Estilos con SASS**: Utilizo SASS como preprocesador de CSS para organizar y simplificar los estilos.
+- **Animaciones**: Se han añadido algunas animaciones sutiles para mejorar la experiencia de usuario.
+- **Optimización de rendimiento**: El código está optimizado para asegurar una carga rápida y eficiente.
+- **Navegación fluida**: El portafolio cuenta con una navegación sencilla e intuitiva.
+
+## Secciones del Portafolio
+
+- **Inicio**: Presentación con mi nombre, título, y enlaces a redes sociales como GitHub y LinkedIn.
+- **Sobre Mí**: Una breve introducción sobre mi carrera y experiencia.
+- **Habilidades**: Lista de mis principales habilidades técnicas (HTML, CSS, JavaScript, SASS, PHP, React, etc.).
+- **Proyectos**: Muestra de algunos de mis proyectos más destacados, cada uno con un enlace para ver el proyecto en vivo y otro al repositorio en GitHub.
+- **Contacto**: Información de contacto para cualquier consulta o propuesta.
 
 ## Tecnologías Utilizadas
 
-- **HTML**
-- **CSS/SASS**
+- **HTML5**
+- **SASS**
 - **JavaScript**
-- **Gulp**
+- **FontAwesome**: Para los íconos.
+- **Netlify**: Para la implementación de los proyectos.
 
-## Configuración del Proyecto
-
-### Requisitos Previos
-
-Asegúrate de tener instalados los siguientes software:
-
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
 
 ## Instalación
     Instala las dependencias de npm:
@@ -40,11 +41,13 @@ Para iniciar el entorno de desarrollo, usa el siguiente comando:
 Este comando ejecutará Gulp para compilar SASS y JavaScript y observar cambios en los archivos.
 Servidor Local
 
-## Funcionalidades Adicionales
-### Gulp
 
-El proyecto utiliza Gulp para automatizar tareas de desarrollo. El archivo gulpfile.js incluye tareas para compilar SASS a CSS y observar cambios en los archivos.
+## Contacto
 
-## Licencia
+Si tienes alguna pregunta o estás interesado en trabajar conmigo, no dudes en contactarme:
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+- **Email**: gahdz14@gmail.com
+- **Teléfono**: 55-7385-8588
+- **LinkedIn**: [Gerardo Antonio Ruelas Hernández](https://www.linkedin.com/in/gerardo-antonio-ruelas-hern%C3%A1ndez-628b94289/)
+- **GitHub**: [GerardoARHernandez](https://github.com/GerardoARHernandez)
+

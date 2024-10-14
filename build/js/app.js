@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciarApp() {
-    cambiarTexto();
+    if (document.querySelector('#titulo')) {
+        cambiarTexto();
+    }
     mostrarOcultarMenu();
     seleccionar();
     scrollNav();
@@ -16,7 +18,12 @@ function cambiarTexto(){
 
 function textos() {
     const textos = ['Desarrollador Web', 'Programador', 'Ingeniero en Comunicaciones y Electrónica'];
-    const elemento = document.getElementById('titulo');
+    const elemento = document.querySelector('#titulo');
+
+    if (!elemento) {
+        console.error('El elemento con ID "titulo" no existe en el DOM');
+        return; // Salimos de la función si no se encuentra el elemento
+    }
 
     elemento.style.opacity = 0;
 
@@ -61,8 +68,11 @@ function scrollNav() {
         });
     });
 
-    subir.addEventListener('click', function(e) {
-        e.preventDefault();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    if (subir) {
+        subir.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+    
 }

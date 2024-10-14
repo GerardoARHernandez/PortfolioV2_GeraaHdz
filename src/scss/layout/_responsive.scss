@@ -23,6 +23,18 @@
       padding: 1rem;
     }
 
+    .card-proyect {
+      width: 35rem; // Ajuste para tabletas
+    }
+  
+    .card-proyect-title {
+      font-size: 2rem;
+    }
+  
+    .description-proyect {
+      font-size: 1.1rem;
+    }
+
   }
   
   @media screen and (max-width: v.$tablet) {
@@ -48,9 +60,20 @@
   }
   
   @media screen and (max-width: v.$telefono){
-    .contenido-card{
-      display: grid;
-      grid-template-columns: repeat(2, auto);
+    .card-proyect {
+      width: 100%; // Ajuste para móviles
+    }
+  
+    .card-proyect-title {
+      font-size: 1.8rem;
+    }
+  
+    .description-proyect {
+      font-size: 1rem;
+    }
+  
+    .proyect-technologies span {
+      font-size: 1.5rem;
     }
     
   }

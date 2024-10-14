@@ -41,7 +41,7 @@
             <h2 class="titulo" id="titulo">Ingeniero en Comunicaciones y Electrónica </h2>
             <div class="redes">
                 <a href="https://github.com/GerardoARHernandez" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/gerardo-a-ruelas-hern%C3%A1ndez-628b94289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/gerardo-antonio-ruelas-hern%C3%A1ndez-628b94289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
     </div>
   </div> <!-- Fin de Inicio  -->
@@ -50,7 +50,7 @@
   <div class="sobremi" id="sobremi" >
     <div class="contenido-sobremi">
         <h2>Sobre Mí</h2>
-        <p><span>¡Hola, bienvenido! ¡Soy Gerardo, tengo 24 años, soy un desarrollador web apasionado que disfruta aprendiendo nuevas tecnologías y resolviendo problemas con código!</span></p>
+        <p><span>¡Hola, bienvenido! ¡Soy Gerardo, tengo 24 años, soy ingeniero en comunicaciones y electrónica, también un desarrollador web apasionado que disfruta aprendiendo nuevas tecnologías y resolviendo problemas con código!</span></p>
         <p> Me encanta crear sitios web hermosos y funcionales para personas que quieren marcar la diferencia.</p>
 
         <div class="fila">
@@ -159,133 +159,150 @@
         <h2>Proyectos</h2>
         <div class="galeria">
 
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <picture>
-                        <source loading="lazy" srcset="src/img/festival-musica.webp" type="image/webp">
-                        <img loading="lazy" width="200" height="300" src="src/img/festival-musica.png" alt="Festival de Musica">
-                    </picture>
-                    <a href="https://festival-musica-geraarhdz14.netlify.app/" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">Festival de Música</h4>
-                            <p class="card__description">Página web que simula un festival de música con line up, usando SASS y JavaScript.</p>
-
-                            <p class="tec">
-                                <i class="fa-brands fa-html5 fa-lg"></i>
-                                <i class="fa-brands fa-sass fa-lg"></i>
-                                <i class="fa-brands fa-js fa-lg"></i>
-                            </p>
-                        </div>
-                    </a>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/festival-musica.webp" alt="Imagen Festival de Musica" class="img-project">
+                <div class="card-proyect-content">
+                    <h3 class="card-proyect-title">Festival de Música</h3>
+                    <p class="description-proyect">Página web que simula un festival de música con line up, usando SASS y JavaScript.</p>
+                    <div class="proyect-technologies">
+                        <span class="tec"> <i class="fa-brands fa-html5 fa-lg"></i> </span>
+                        <span class="tec"> <i class="fa-brands fa-sass fa-lg"></i> </span>
+                        <span class="tec"> <i class="fa-brands fa-js fa-lg"></i> </i></span>
+                    </div>
+                    <div class="proyect-links ">
+                        <a href="https://festival-musica-geraarhdz14.netlify.app/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                        
+                    </div>
                 </div>
             </section><!--Fin de Festival de Musica-->
 
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <picture>
-                        <source loading="lazy" srcset="src/img/p4_citas.webp" type="image/webp">
-                        <img loading="lazy" width="200" height="300" src="src/img/p4_citas.png" alt="Veterinaria con React ">
-                    </picture>
-                    <a href="https://veterinariapacientes-gerardohdz14.netlify.app" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">Citas en Veterinaria</h4>
-                            <p class="card__description">Aplicación web en la que el usuario puede registrar pacientes, editar y eliminarlos, usando React y Tailwind CSS.</p>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/Recetario.webp" alt="Imagen Recetario" class="img-project">
+                <div class="card-proyect-content">
+                    <h3 class="card-proyect-title">Recetario</h3>
+                    <p class="description-proyect">Aplicación web que permite a los usuarios buscar recetas de comida según diferentes categorías. Los usuarios pueden seleccionar una categoría de recetas y ver los resultados que coinciden con su selección. La aplicación también permite marcar recetas como favoritas para un acceso rápido posterior.  </p>
+                    <div class="proyect-technologies">
+                        <span class="tec"> <i class="fa-brands fa-html5 fa-lg"></i> </span>
+                        <span class="tec"><i class="fa-brands fa-bootstrap"></i></span>
+                        <span class="tec"> <i class="fa-brands fa-js fa-lg"></i> </i></span>
+                    </div>
+                    <div class="proyect-links ">
+                        <a href="https://recetario-geraahdz14.netlify.app/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                        <a href="https://github.com/GerardoARHernandez/Recetario_JS" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </section><!--Fin de Recetario-->
 
-                            <p class="tec">
-                                <i class="fa-brands fa-react fa-lg"></i>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tailwind" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z" />
-                                </svg>
-                            </p>
-                        </div>
-                    </a>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/p4_citas.webp" alt="Imagen Veterinaria con React" class="img-project">
+                <div class="card-proyect-content">
+                    <h3 class="card-proyect-title">Citas en Veterinaria</h3>
+                    <p class="description-proyect">Aplicación web en la que el usuario puede registrar pacientes, editar y eliminarlos, usando React y Tailwind CSS.</p>
+                    <div class="proyect-technologies">
+                        <span class="tec"> <i class="fa-brands fa-react fa-lg"></i> </span>
+                        <span class="tec"> Tailwind CSS </span>
+                    </div>
+                    <div class="proyect-links ">
+                        <a href="https://veterinariapacientes-gerardohdz14.netlify.app" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                        <a href="https://github.com/GerardoARHernandez/citas_veterinaria_react" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                    </div>
                 </div>
             </section><!--Fin de Veterinario-React-->
 
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <img loading="lazy" src="src/img/control_gastos-react.webp" alt="Control de Gastos con React ">
-                    <a href="https://control-presupuesto-gerardohdz14.netlify.app/" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">Control de Gastos</h4>
-                            <p class="card__description">Aplicación web en la que el usuario propone un presupuesto, puediendo agregar, editar y eliminar gastos según una categoria.</p>
-
-                            <p class="tec">
-                                <i class="fa-brands fa-react fa-lg"></i>
-                                <i class="fa-brands fa-css3-alt fa-lg"></i>
-                            </p>
-                        </div>
-                    </a>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/control_gastos-react.webp" alt="Imagen ControlGastos-React" class="img-project">
+                <div class="card-proyect-content">
+                    <h3 class="card-proyect-title">Control de Gastos</h3>
+                    <p class="description-proyect">Aplicación web en la que el usuario propone un presupuesto, puediendo agregar, editar y eliminar gastos según una categoria.</p>
+                    <div class="proyect-technologies">
+                        <span class="tec"> <i class="fa-brands fa-react fa-lg"></i> </span>
+                        <span class="tec"> <i class="fa-brands fa-css3-alt fa-lg"></i> </span>
+                    </div>
+                    <div class="proyect-links ">
+                        <a href="https://control-presupuesto-gerardohdz14.netlify.app/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                        <a href="https://github.com/GerardoARHernandez/control_gastos-react" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                    </div>
                 </div>
             </section><!--Fin de ControlGastos-React-->
 
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <img loading="lazy" src="src/img/Cotizador Criptomonedas.webp" alt="Cotizador de Criptomonedas">
-                    <a href="https://cotizadorcripts-gerardohdz14.netlify.app/" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">Cotizador de Criptomonedas</h4>
-                            <p class="card__description">Aplicación web que consulta una API para obtener una conversión, usando React y Styled Components</p>
-
-                            <p class="tec">
-                                <i class="fa-brands fa-react fa-lg"></i>
-                                <i class="fa-brands fa-css3-alt fa-lg"></i>
-                            </p>
-                        </div>
-                    </a>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/Bienes Raices.webp" alt="App Salón" class="img-project">
+                <div class="card-proyect-content">
+                  <h3 class="card-proyect-title">Bienes Raices</h3>
+                  <p class="description-proyect">Simula una pagina de bienes raices donde tambien un administrador puede crear, leer, actualizar y eliminar (CRUD) las propiedades, conectada a una base de datos MySQL, hecha con MVC. </p>
+                  <div class="proyect-technologies">
+                    <span class="tec"> <i class="fa-brands fa-html5 fa-lg"></i> </span>
+                    <span class="tec"> <i class="fa-brands fa-sass fa-lg"></i> </span>
+                    <span class="tec"> <i class="fa-brands fa-js fa-lg"></i> </i></span>
+                    <span class="tec"> <i class="fa-brands fa-php"></i> </span>
+                    <span class="tec"> <i class="fa-solid fa-database"></i> </span>
+                  </div>
+                  <div class="proyect-links ">
+                    <a href="https://dilvoyu.nyc.dom.my.id/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                    <a href="https://github.com/GerardoARHernandez/BienesRaices_mvc_php" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                  </div>
                 </div>
-            </section><!--Fin de CotizadorCriptos-React-->
+            </section><!--Fin de BienesRaices-->  
 
-
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <img loading="lazy" src="src/img/Bienes Raices.webp" alt="Bienes Raices">
-                    <a href="https://dilvoyu.nyc.dom.my.id/" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">Bienes Raices</h4>
-                            <p class="card__description">Aplicación web simula venta de casas que contiene un administrador, hecha con MVC.</p>
-
-                            <p class="tec">
-                                <i class="fa-brands fa-html5 fa-lg"></i>
-                                <i class="fa-brands fa-sass fa-lg"></i>
-                                <i class="fa-brands fa-js fa-lg"></i>
-                            </p>
-                            <p class="tec">
-                                <i class="fa-brands fa-php"></i>
-                                <i class="fa-solid fa-database"></i>
-                            </p>
-                        </div>
-                    </a>
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/AppSalon.webp" alt="App Salón" class="img-project">
+                <div class="card-proyect-content">
+                  <h3 class="card-proyect-title">App Salón</h3>
+                  <p class="description-proyect">Simula una barbería, permitiendo a los clientes seleccionar servicios y reservar citas. Además, incluye una interfaz de administración donde los administradores pueden crear, leer, actualizar y eliminar (CRUD) servicios. La aplicación está conectada a una base de datos MySQL usando la estructura MVC.  <br>
+                    Pruebas: <br>
+                    correo: correo3@gmail.com <br>
+                    contraseña: 123456</p>
+                  <div class="proyect-technologies">
+                    <span class="tec"> <i class="fa-brands fa-html5 fa-lg"></i> </span>
+                    <span class="tec"> <i class="fa-brands fa-sass fa-lg"></i> </span>
+                    <span class="tec"> <i class="fa-brands fa-js fa-lg"></i> </i></span>
+                    <span class="tec"> <i class="fa-brands fa-php"></i> </span>
+                    <span class="tec"> <i class="fa-solid fa-database"></i> </span>
+                  </div>
+                  <div class="proyect-links ">
+                    <a href="http://lulguso.nyc.dom.my.id/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                    <a href="https://github.com/GerardoARHernandez/AppSalon_MVC" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                  </div>
                 </div>
-            </section><!--Fin de BienesRaices-->
-
-            <section class="proyecto">
-                <div class="card-proyect">
-                    <img loading="lazy" src="src/img/AppSalon.webp" alt="App Salón">
-                    <a href="http://lulguso.nyc.dom.my.id/" target="_blank">
-                        <div class="card__content">
-                            <h4 class="card__title">App Salón</h4>
-                            <p class="card__description">
-                                Simula una barbería con acceso para el cliente y un administrador, hecha con MVC.
-                                <br>
-                                Pruebas: <br>
-                                correo2@correo.com //
-                                123456
-                            </p>
-                            <p class="tec">
-                                <i class="fa-brands fa-html5 fa-lg"></i>
-                                <i class="fa-brands fa-sass fa-lg"></i>
-                                <i class="fa-brands fa-js fa-lg"></i>
-                            </p>
-                            <p class="tec">
-                                <i class="fa-brands fa-php"></i>
-                                <i class="fa-solid fa-database"></i>
-                            </p>
-                        </div>
-                    </a>
+            </section><!--Fin de AppSalon-->        
+            
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/Cotizador de Prestamos - React.webp" alt="Cotizador de Prestamos" class="img-project">
+                <div class="card-proyect-content">
+                  <h3 class="card-proyect-title">Cotizador de Prestamos</h3>
+                  <p class="description-proyect">Este es un proyecto de Cotizador de Préstamos desarrollado en React y el mismo en Vue.js, utilizando TailwindCSS para los estilos. El cotizador permite a los usuarios calcular el monto total de un préstamo en función de la cantidad solicitada, el plazo de pago, y la tasa de interés.  
+                    <div class="proyect-technologies">
+                        <span class="tec"> <i class="fa-brands fa-react fa-lg"></i> </span>
+                        <span class="tec"> Tailwind CSS </span>
+                        <span class="tec"><i class="fa-brands fa-vuejs"></i></span>
+                    </div>
+                  <div class="proyect-links ">
+                    <a href="https://cotizadorprestamos-react-geraahdz14.netlify.app/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto - React</a>
+                    <a href="https://github.com/GerardoARHernandez/Cotizador-prestamos-React" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub - React</a>
+                  </div>
+                  <div class="proyect-links">
+                    <a href="https://cotizadorprestamos-vue-geraahdz14.netlify.app/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto - Vue</a>
+                    <a href="https://github.com/GerardoARHernandez/Cotizador-de-Pr-stamos---Vue.js" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub - Vue</a>
+                  </div>
                 </div>
-            </section><!--Fin de AppSalon-->                
+            </section><!--Fin de CotizadorPrestamos-->    
+            
+            <section class="card-proyect">
+                <img loading="lazy" src="../src/img/Agencia de Viajes.webp" alt="Agencia de Viajes" class="img-project">
+                <div class="card-proyect-content">
+                  <h3 class="card-proyect-title">Agencia de Viajes</h3>
+                  <p class="description-proyect">Una aplicación simula el sitio web de una agencia de viajes, donde los usuarios pueden ver destinos populares, descuentos, y leer o agregar testimonios de clientes. Utiliza Node.js para gestionar el backend, Pug como motor de plantillas, Bootstrap para el diseño responsive y Sequelize como ORM para interactuar con la base de datos</p>
+                  <div class="proyect-technologies">
+                    <span class="tec"><i class="fa-brands fa-bootstrap"></i></span>
+                    <span class="tec"><i class="fa-brands fa-node"></i></span>
+                    <span class="tec"><i class="fa-solid fa-database"></i></span>
+                  </div>
+                  <div class="proyect-links ">
+                    <a href="https://agenciaviajesnode-913l.onrender.com/" class="btn-proyect btn-primary-proyect " target="_blank">Ver Proyecto</a>
+                    <a href="https://github.com/GerardoARHernandez/AgenciaViajesNode" class="btn-proyect btn-secondary-proyect" target="_blank">GitHub</a>
+                  </div>
+                </div>
+            </section><!--Fin de Agencia de Viajes-->     
 
         </div> <!--Fin de Galeria-->
     </div>
@@ -334,7 +351,7 @@
     </a>
     <section class="redes">
         <a href="https://github.com/GerardoARHernandez" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/gerardo-a-ruelas-hern%C3%A1ndez-628b94289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/gerardo-antonio-ruelas-hern%C3%A1ndez-628b94289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </section>
     <div class="derechos">
         <h3>

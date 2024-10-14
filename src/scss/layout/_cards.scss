@@ -2,77 +2,96 @@
 
 //Proyecto
 .card-proyect {
-  
-    position: relative;
-    width: 100%;
-    height: 100%;
-    max-width: 60rem;
-    border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    width: 45rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 1rem;
   }
   
-  
+  .card-proyect-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
   
   .card-proyect:hover {
-    transform: rotate(-5deg) scale(1.1);
+    transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
-  
-  .card__content {
-    a{
-      text-decoration: none;
-      color: #000;
-    }
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-90deg);
+
+  .img-proyect {
     width: 100%;
-    height: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
-    background-color: #11171e;
-    opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    height: 220px;
+    object-fit: cover;
+  }
 
-    p{
-      text-align: center;
-      font-size: 1.8rem;
-    }
+  .card-proyect-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .description-proyect {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #e3e3e3;
+  }
 
-    .tec{
-      i{
-        font-size: 2.4rem;
-        margin: 0 1rem;
-        color: v.$blanco;
+  .proyect-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+
+      span {
+        background-color: #e8e8e8;
+        padding: 5px 12px;
+        border-radius: 7px;
+        font-size: 1.75rem;
+        color: #192144;
       }
+  }
+
+  .proyect-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+
+  .btn-proyect {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .btn-primary-proyect {
+    background-color: #007bff;
+      &:hover {
+        background-color: #0056b3;
+      }
+  }
+
+  .btn-secondary-proyect {
+    background-color: #6c757d;
+      &:hover {
+        background-color: #565e64;
+      }
+  }
+
+  .tec{
+    i{
+      font-size: 2.4rem;
+      margin: 0 1rem;
     }
   }
-  
-  .card-proyect:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-  
-  .card__title {
-    margin: 0;
-    font-size: 24px;
-    color: v.$blanco;
-    font-weight: 700;
-    text-align: center;
-  }
-  
-  .card__description {
-    margin: 10px 0 0;
-    font-size: 14px;
-    color: #dfd7d7;
-    line-height: 1.4;
-    text-align: center;
-  }
+
   
   //Habilidades
   .card-habilidad{
